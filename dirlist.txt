@@ -1,0 +1,12 @@
+total 56
+drwxr-xr-x  11 nick  staff   374 Oct 10 14:52 .
+drwx------@  6 nick  staff   204 Oct  5 14:07 ..
+drwxr-xr-x  14 nick  staff   476 Oct 10 14:51 .git
+drwxr-xr-x   3 nick  staff   102 Oct  6 13:39 .vscode
+-rw-r--r--   1 nick  staff   151 Oct  5 14:54 README.md
+-rw-r--r--   1 nick  staff     0 Oct  5 13:56 baz
+-rw-r--r--   1 nick  staff  2296 Oct  9 18:19 date.js
+-rw-r--r--   1 nick  staff     0 Oct 10 14:52 dirlist.txt
+-rw-r--r--   1 nick  staff  8711 Oct  9 10:00 escapeRoom.js
+-rw-r--r--   1 nick  staff  2957 Oct  6 10:56 taskapp.js
+-rw-r--r--   1 nick  staff  2205 Oct 10 14:39 test.js
