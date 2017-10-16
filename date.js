@@ -68,3 +68,37 @@
 // console.log(v1.getLength())
 
 
+
+
+
+function countZeroes(array) {
+    var counter = 0
+    var zero = array.reduce(function (arr, str){
+        if (arr === 0 || str === 0) {
+           return counter++
+        }
+    })
+    return counter - 1
+}
+
+
+console.log( countZeroes([2, 4, 0, 2, 9, 0, 0, 5, 9, 0, 8] ));
+console.log( countZeroes([1, 2, 0, 12, 0, 3, 0, 0, 0, 0, 9, 0] ));
+
+function countZeroes(array){
+    var counter = 0
+    var zeros = array.reduce(function(a,b){
+        if(a === 0 || b === 0){
+            counter++
+            return a + b
+        }else{
+            return a + b
+        }
+    })
+    return counter
+}
+
+console.log( countZeroes([2, 4, 0, 2, 9, 0, 0, 5, 9, 0, 8] ));
+console.log( countZeroes([1, 2, 0, 12, 0, 3, 0, 0, 0, 0, 9, 0] ));
+
+
