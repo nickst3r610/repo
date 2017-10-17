@@ -9,8 +9,25 @@ html {
     font-size: 0.8rem;
   }
   
+  .firstclass {
+    border-top: 3px solid #000000;
+    border-right: 3px solid #000000;
+    border-left: 3px solid #000000
+}
+
+.middleclass {
+    border-left: 3px solid #000000;
+    border-right: 3px solid #000000
+}
+
+.lastclass {
+    border-bottom: 3px solid #000000;
+    border-left: 3px solid #000000;
+    border-right: 3px solid #000000
+} 
+
   td, th {
-    border: 1px solid rgb(190,190,190);
+    border: 1px solid rgb(270, 270, 270);
     padding: 10px 20px;
   }
   
@@ -25,7 +42,7 @@ html {
   tr:nth-child(even) td {
     background-color: rgb(250,250,250);
   }
-  
+
   tr:nth-child(odd) td {
     background-color: rgb(245,245,245);
   }
