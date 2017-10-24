@@ -1,0 +1,51 @@
+#navigation {
+    
+    }
+    #navigation ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        
+    }
+        
+    #navigation li {
+        display: inline;
+        background-color: #aaa;
+        
+    }
+
+   li a:hover {
+        background-color: #00aaff;
+        
+    }
+
+    p a:hover {
+        background-color: #00aaff;
+        
+    }
+        
+    #case {
+        background-color: #eee;
+        padding-bottom: 1px;
+        padding-top: 1px;
+        width: 600px
+    }
+        
+    #footer {
+        padding: 1px;
+        background-color: #aaa;
+        width: 598px
+    }
+        
+    #footer ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        
+    }
+        
+    #footer  li {
+        display: inline;
+        
+    }
+        
