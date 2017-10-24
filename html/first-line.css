@@ -11,7 +11,7 @@ a:hover, a:active {
     font-weight: bold;
 }
 
-p:first-child::first-line {
+p::first-line {
     text-transform: uppercase;
 
 }
