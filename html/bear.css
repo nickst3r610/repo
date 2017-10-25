@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    font-size: 24px;
+    width: 40em;
+    
+}
+
+@media (max-width:960px) {
+    body {
+        width: 30em
+    }
+}
