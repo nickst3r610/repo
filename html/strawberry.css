@@ -25,6 +25,9 @@ p {
     background-color: lightgreen
     
 }
+#sidebar a {
+    text-decoration: none
+}
 #main {
     position: relative;
     margin-left: 250px;

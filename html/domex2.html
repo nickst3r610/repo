@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Repeated2</title>
+    <script type="text/javascript">
+
+        let input = window.prompt("Input a number first then a word/sentence.");
+
+
+        var newInput = input.split(' ')
+        var number = Number(newInput[0])
+        var newText = ""
+        if(!isNaN(number)) {
+            for (var i = 0; i < number; i++) {
+                newText+= newInput.join('').slice(1) + " "
+                
+            }
+            window.alert(newText)
+        } else {
+            window.alert("Enter a number first then a word/sentence")
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

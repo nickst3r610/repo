@@ -1,0 +1,37 @@
+html {
+    background-color: beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 30em
+}
+
+
+img {
+    width: 22em
+}
+
+/* ul {
+    width: 280px;
+    height:300px;
+
+} */
+
+h1, h2{
+    font-family: fantasy;
+}
+
+ul li {
+    list-style-type: square;
+    
+}
+
+ol li {
+    list-style: lower-roman;
+}
+
+
+li span:hover{
+    color: purple;
+    background-color: rosybrown;
+    padding: 4px
+    
+}
