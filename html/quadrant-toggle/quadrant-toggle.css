@@ -1,0 +1,36 @@
+#topright {
+    right:0;
+    position: absolute;
+    top:0;
+    left:50%;
+    bottom:50%;
+    border:2px dotted black;
+}
+
+#topleft {
+    position: absolute;
+    left:0;
+    right:50%;
+    top:0;
+    bottom:50%; 
+    border:2px dotted black;
+}
+
+
+#bottomright {
+    position: absolute;
+    right:0;
+    left:50%;
+    top:50%;
+    bottom:0; 
+    border:2px dotted black;
+}
+
+#bottomleft {
+    position: absolute;
+    left:0; 
+    right:50%; 
+    top:50%;
+    bottom:0;
+    border:2px dotted black;
+}
