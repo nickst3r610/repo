@@ -1,0 +1,14 @@
+html {
+
+    color: white;
+    background-color: black;
+}
+
+* {
+    font-family: 'Neucha', cursive;
+}
+
+li:hover {
+    background-color: yellow;
+    color: red;
+}

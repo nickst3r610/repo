@@ -1,0 +1,12 @@
+html {
+    background-color: lime;
+    color: magenta;
+    font-family: 'Spectral', serif;
+    
+}
+
+#clear {
+    background-color: magenta;
+    color: lime;
+    font-family: 'Spectral', serif;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<head>
+
+</head>
+
+<body>
+  <canvas width="2000" height="1000"></canvas>
+  <script>
+    var ctx = document.querySelector("canvas").getContext("2d");
+    ctx.fillStyle = "blue"
+    function drawRect(x, y, width, height){
+      ctx.fillRect(x, y, width, height)
+      drawRect(x + 65, y = y + 65, width, height)
+    }
+   
+    drawRect(50, 50, 64, 64)
+    </script>
+</body>
+</html>

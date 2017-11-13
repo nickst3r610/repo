@@ -1,0 +1,11 @@
+html, button, #num {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1{
+    text-decoration: underline;
+}
+
+.main {
+    font-size: 80%;
+}
