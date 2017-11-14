@@ -2,7 +2,7 @@ const fs = require('fs');
 
 function create() {
     for (var i = 1; i <= 100; i++) {
-        fs.mkdir('another-new-repo', () => {
+        fs.mkdir(`folder-${i}`, () => {
             console.log('Created folder!')
         });
     }
@@ -19,5 +19,5 @@ function remove() {
     }
 }
 
-//create()
+create()
 remove()
