@@ -8,6 +8,6 @@ function makeStory (string) {
         The woods are dangerous."
         "Don't worry, mommy," said ${string}, "I'll be careful.`
     }
-}
+};
 
-console.log(makeStory("Xavier"))
+console.log(makeStory("Xavier"));
